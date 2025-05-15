@@ -13,6 +13,30 @@ body{
 strong{
     color: var(--verde-secundario);
 }
-button{
+
+.container__botao{
+    background-color: var(--verde-secundario)   ;
+    border-radius: 5px;
     background-color: var(--verde-secundario);
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
+h1{
+    font-size: 28px;
+    text-align: center;
+    @import url();
+}
+
+.principal{
+    background-image: url("img/livro1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
 }
