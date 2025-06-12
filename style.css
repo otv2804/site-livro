@@ -80,3 +80,11 @@ strong{
     font-size: 48px;
     margin-bottom: 0.2em;
 }
+
+.terceiro_botao{
+    display: inline-block;
+}
+
+.container_descricao{
+    padding: 8em;
+}
